@@ -1,0 +1,58 @@
+{
+	"API_SONGS": [
+		{
+			"name": "Vive",
+			"route": "uno.mp3",
+			"reproductions": 10,
+			"img": 4
+		},
+		{
+			"name": "Invierno",
+			"route": "dos.mp3",
+			"reproductions": 30,
+			"img": 1
+		},
+		{
+			"name": "Planeta",
+			"route": "tres.mp3",
+			"reproductions": 20,
+			"img": 3
+		},
+		{
+			"name": "Suave",
+			"route": "cuatro.mp3",
+			"reproductions": 80,
+			"img": 2
+		},
+		{
+			"name": "Contigo",
+			"route": "cinco.mp3",
+			"reproductions": 50,
+			"img": 4
+		},
+		{
+			"name": "Alas",
+			"route": "seis.mp3",
+			"reproductions": 70,
+			"img": 1
+		},
+		{
+			"name": "Verde",
+			"route": "siete.mp3",
+			"reproductions": 60,
+			"img": 3
+		},
+		{
+			"name": "Nuevamente",
+			"route": "ocho.mp3",
+			"reproductions": 90,
+			"img": 1
+		},
+		{
+			"name": "Hoy",
+			"route": "nueve.mp3",
+			"reproductions": 40,
+			"img": 2
+		}
+	]
+}

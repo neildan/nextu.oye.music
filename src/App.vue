@@ -1,21 +1,24 @@
 <script setup>
-import Navbar from './components/Navbar.vue'
+import Navbar from "./components/Navbar.vue";
+import Contact from "./components/Contact.vue";
+import FooterPage from "./components/FooterPage.vue";
 </script>
 
 <template>
-  <header>
-    <Navbar msg="You did it!" />
-  </header>
+  <div id="app">
+    <header>
+      <Navbar />
+    </header>
 
-  <main class="container">
-    <h1>Hola mundo</h1>
+    <main class="container mt-4">
+      <router-view></router-view>
+    </main>
 
-    <div class="alert alert-success" role="alert">
-      A simple success alert—check it out!
-    </div>
-  </main>
+    <FooterPage />
+    <Contact />
+  </div>
 </template>
 
 <style>
-@import './assets/base.css';
+@import "./assets/base.css";
 </style>
